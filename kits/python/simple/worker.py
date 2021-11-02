@@ -7,17 +7,17 @@ from lux.constants import Constants
 from lux.game_constants import GAME_CONSTANTS
 
 WORKER_OUTPUT_SIZE = 8
-WORKER_INPUT_SIZE = 12
+WORKER_INPUT_SIZE = 13
 
 
-def take_worker_action(player, opponent, unit, game_state, resource_tiles):
+def get_worker_action(player, opponent, unit, game_state, resource_tiles):
     # create input vector
     input_vector = worker_input_vector(player, opponent, unit, game_state, resource_tiles)
-    logging.info(f"Input Vector: {input_vector}")
+    #logging.info(f"Input Vector: {input_vector}")
     # TODO: get output from the network
     worker_action_vector = np.random.rand(WORKER_OUTPUT_SIZE)
     # take the action
-    return append_worker_action(player, unit, worker_action_vector, game_state.map, resource_tiles)
+    return worker_action(player, unit, worker_action_vector, game_state.map, resource_tiles)
 
 
 def worker_input_vector(player, opponent, unit, game_state, resource_tiles):
@@ -52,11 +52,13 @@ def worker_input_vector(player, opponent, unit, game_state, resource_tiles):
     input.append(unit.cargo.uranium / GAME_CONSTANTS["PARAMETERS"]["RESOURCE_CAPACITY"]["WORKER"])
     # cargo space fraction that is free
     input.append(unit.get_cargo_space_left() / GAME_CONSTANTS["PARAMETERS"]["RESOURCE_CAPACITY"]["WORKER"])
+    # road fraction of current cell
+    input.append(game_state.map.get_cell_by_pos(unit.pos).road / GAME_CONSTANTS["PARAMETERS"]["MAX_ROAD"])
     return np.array(input)
 
 
 
-def append_worker_action(player, unit, worker_action_vector, game_map, resource_tiles):
+def worker_action(player, unit, worker_action_vector, game_map, resource_tiles):
     action_idx = np.argmax(worker_action_vector)
     # move toward wood
     if action_idx == 0:
