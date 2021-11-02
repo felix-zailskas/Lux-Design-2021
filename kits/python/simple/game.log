@@ -1,71 +1,178 @@
-INFO:root:Input Vector: [ 1.  4. 11.  0. 13.  0.  0.  0.  0.  0.  0.  1.]
-INFO:root:Input Vector: [ 1.          4.         11.INFO:root:Input Vector: [ 1.          4.         11.          0.         13.          0.02564103
-  0.          0.      INFO:root:Unit u_2 of type worker transfers resources
-INFO:root:Input Vector: [ 1.          4.         1INFO:root:Input Vector: [ 0.          5.         12.          1.         14.          0.07692308
-  0.          0.          1.          0.          0.          0.      INFO:root:Input Vector: [ 1.          4.         11.       INFO:root:Input Vector: [ 0.          6.         11.          2.         15.          0.12820513
-  0.          0.          1.          0.          0.          0.   INFO:root:Input Vector: [ 0.          5.         12.       INFO:root:Input Vector: [ 1.          5.         10.          1.         14.          0.17948718
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_1 of type worker moves toward uranium
-INFO:root:Input Vector: [ 2.          4.          9.          2.         15.          0.23076923
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_1 of type worker moves toward uranium
-INFO:root:Input Vector: [ 3.          3.          8.          3.         16.          0.28205128
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_1 of type worker pillages
-INFO:root:Input Vector: [ 3.          3.          8.          3.         16.          0.33333333
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_1 of type worker builds city
-INFO:root:Input Vector: [ 3.          3.          8.          0.         16.          0.35897436
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker moves toward coal
-INFO:root:Input Vector: [ 4.          2.          7.          1.         17.          0.41025641
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker moves toward uranium
-INFO:root:Input Vector: [ 5.          1.          6.          2.         18.          0.46153846
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker builds city
-INFO:root:Input Vector: [ 5.          1.          6.          2.         18.          0.48717949
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker builds city
-INFO:root:Input Vector: [ 5.          1.          6.          2.         18.          0.51282051
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker moves toward coal
-INFO:root:Input Vector: [ 5.          0.          7.          3.         17.          0.56410256
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker transfers resources
-INFO:root:Input Vector: [ 5.          0.          7.          3.         17.          0.58974359
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker pillages
-INFO:root:Input Vector: [ 5.          0.          7.          3.         17.          0.64102564
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker pillages
-INFO:root:Input Vector: [ 5.          0.          7.          3.         17.          0.69230769
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker moves toward uranium
-INFO:root:Input Vector: [ 5.          1.          6.          2.         18.          0.74358974
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_1 of type worker moves toward wood
-  0.         13.          0.53846154
-  0.          0.          0.          0.          0.          1.        ]
-INFO:root:Unit u_2 of type worker pillages
-INFO:root:Input Vector: [ 1.          4.         11.          0.         13.          0.56410256
-  0.          0.          0.          0.          0.          1.        ]
 INFO:root:Unit u_2 of type worker moves toward city
-INFO:root:Input Vector: [ 1.          4.         11.          0.         13.          0.58974359
-  0.          0.          0.          0.          0.          1.        ]
+INFO:root:Unit u_2 of type worker moves INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:Unit u_1 of type worker moves toward INFO:rooINFO:root:City Tile c_1 researches
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:City Tile c_1 does nothing
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:City Tile c_1 researches
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:Unit u_1 of type worker moves toward city
+INFO:root:City Tile c_1 builds a worker
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:City Tile c_1 builds a cart
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:City Tile c_1 builds a cart
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:City Tile c_3 researches
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:Unit u_1 of type worker moves toward uranium
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker moves toward city
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:City Tile c_3 does nothing
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:City Tile c_3 builds a worker
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:City Tile c_3 builds a cart
+INFO:root:City Tile c_3 builds a worker
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:City Tile c_3 builds a worker
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:City Tile c_3 does nothing
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:City Tile c_3 builds a cart
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:City Tile c_3 builds a worker
+INFO:root:Unit u_1 of type worker moves toward uranium
+INFO:root:City Tile c_3 builds a worker
+INFO:root:City Tile c_3 builds a cart
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:City Tile c_3 builds a worker
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:City Tile c_3 builds a cart
+INFO:root:Unit u_1 of type worker moves toward city
+INFO:root:City Tile c_3 builds a cart
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:City Tile c_3 builds a worker
+INFO:root:Unit u_1 of type worker moves toward city
+INFO:root:City Tile c_3 does nothing
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:City Tile c_3 researches
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker moves toward uranium
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:City Tile c_3 researches
+INFO:root:Unit u_1 of type worker moves toward uranium
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker moves toward uranium
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:City Tile c_3 builds a cart
+INFO:root:City Tile c_3 researches
+INFO:root:Unit u_1 of type worker moves toward wood
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:Unit u_1 of type worker builds city
+INFO:root:Unit u_1 of type worker moves toward uranium
+INFO:root:Unit u_1 of type worker pillages
+INFO:root:Unit u_1 of type worker transfers resources
+INFO:root:Unit u_1 of type worker moves toward city
+INFO:root:City Tile c_3 does nothing
+INFO:root:City Tile c_3 builds a cart
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:City Tile c_3 researches
+INFO:root:Unit u_1 of type worker moves toward coal
+INFO:root:City Tile c_3 does nothing
+INFO:root:City Tile c_3 researches
+INFO:root:City Tile c_3 does nothing
+INFO:root:City Tile c_3 does nothing
+INFO:root:City Tile c_3 builds a cart
+es toward coal
+INFO:root:Unit u_3 of type worker moves toward city
+INFO:root:Unit u_2 of type worker moves toward city
+INFO:root:Unit u_3 of type worker moves toward wood
+INFO:root:City Tile c_4 does nothing
+INFO:root:City Tile c_4 does nothing
+INFO:root:Unit u_2 of type worker transfers resources
+INFO:root:Unit u_3 of type worker builds city
+INFO:root:City Tile c_4 builds a cart
+INFO:root:Unit u_2 of type worker moves toward city
+INFO:root:City Tile c_4 does nothing
+INFO:root:City Tile c_5 researches
+INFO:root:Unit u_3 of type worker moves toward uranium
+INFO:root:Unit u_3 of type worker transfers resources
+INFO:root:City Tile c_4 does nothing
+INFO:root:Unit u_2 of type worker transfers resources
+INFO:root:Unit u_3 of type worker moves toward uranium
+INFO:root:City Tile c_4 builds a cart
+INFO:root:Unit u_2 of type worker transfers resources
+INFO:root:Unit u_3 of type worker moves toward wood
 INFO:root:Unit u_2 of type worker moves toward wood
-INFO:root:Input Vector: [ 0.          5.         12.          1.         14.          0.64102564
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_2 of type worker builds city
-INFO:root:Input Vector: [ 0.          5.         12.          1.         14.          0.66666667
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_2 of type worker moves toward wood
-INFO:root:Input Vector: [ 0.          5.         12.          1.         14.          0.69230769
-  0.          0.          1.          0.          0.          0.        ]
 INFO:root:Unit u_2 of type worker pillages
-INFO:root:Input Vector: [ 0.          5.         12.          1.         14.          0.74358974
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_2 of type worker moves toward wood
-INFO:root:Input Vector: [ 0.          5.         12.          1.         14.          0.76923077
-  0.          0.          1.          0.          0.          0.        ]
-INFO:root:Unit u_2 of type worker moves toward coal
+INFO:root:City Tile c_4 builds a worker
+INFO:root:Unit u_3 of type worker builds city
+INFO:root:Unit u_2 of type worker pillages
+INFO:root:Unit u_3 of type worker builds city
+INFO:root:Unit u_2 of type worker moves toward city
+INFO:root:Unit u_3 of type worker moves toward wood
+INFO:root:City Tile c_4 does nothing
+INFO:root:Unit u_2 of type worker pillages
+INFO:root:Unit u_3 of type worker moves toward wood
+INFO:root:City Tile c_4 builds a cart
+INFO:root:Unit u_2 of type worker pillages
+INFO:root:Unit u_3 of type worker moves toward uranium
+INFO:root:City Tile c_5 researches
+INFO:root:Unit u_2 of type worker moves toward uranium
+INFO:root:Unit u_3 of type worker moves toward wood
+INFO:root:Unit u_2 of type worker builds city
+INFO:root:Unit u_3 of type worker builds city
+INFO:root:City Tile c_4 does nothing
+INFO:root:Unit u_2 of type worker moves toward city
+INFO:root:Unit u_3 of type worker builds city
+INFO:root:Unit u_2 of type worker pillages
+INFO:root:Unit u_3 of type worker moves toward city
+INFO:root:Unit u_2 of type worker pillages
+INFO:root:Unit u_3 of type worker builds city
+INFO:root:City Tile c_4 researches
+INFO:root:Unit u_2 of type worker moves toward uranium
+INFO:root:Unit u_3 of type worker transfers resources
+INFO:root:Unit u_3 of type worker moves toward city
+INFO:root:Unit u_3 of type worker pillages
+INFO:root:Unit u_3 of type worker moves toward coal
+INFO:root:City Tile c_5 builds a worker
+INFO:root:Unit u_4 of type worker transfers resources
+INFO:root:Unit u_4 of type worker moves toward coal
+INFO:root:City Tile c_4 does nothing
+INFO:root:City Tile c_4 researches
+INFO:root:City Tile c_5 builds a cart
+INFO:root:City Tile c_4 builds a cart
+INFO:root:City Tile c_5 builds a worker
+INFO:root:City Tile c_5 builds a worker
+INFO:root:City Tile c_5 does nothing
+INFO:root:City Tile c_5 builds a worker
+INFO:root:City Tile c_5 builds a cart
+INFO:root:City Tile c_5 builds a cart
+INFO:root:City Tile c_4 builds a cart
+INFO:root:City Tile c_5 does nothing
+INFO:root:City Tile c_5 builds a cart
+INFO:root:City Tile c_4 builds a cart
+INFO:root:City Tile c_4 researches
+INFO:root:City Tile c_5 does nothing
+INFO:root:City Tile c_5 builds a cart
