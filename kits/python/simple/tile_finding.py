@@ -56,3 +56,7 @@ def dist_to_closest_city_tile(player, unit):
                 if dist < closest_dist:
                     closest_dist = dist
     return closest_dist
+
+
+def get_closest_unit(player, unit):
+    pass

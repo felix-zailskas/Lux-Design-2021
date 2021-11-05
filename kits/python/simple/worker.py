@@ -91,12 +91,21 @@ def append_worker_action(player, unit, worker_action_vector, game_map, resource_
     if action_idx == 5:
         logging.info(f"Unit {unit.id} of type worker pillages")
         return unit.pillage()
-    # transfer resources
+    # transfer resources to other unit
     if action_idx == 6:
         logging.info(f"Unit {unit.id} of type worker transfers resources")
         # TODO:
         # get id where to transfer to
+        closest_unit = get_closest_unit(player, unit)
+        if closest_unit is None:
+            return None
         # always transfer the most valuable resource first
+        if unit.cargo.uranium > 0:
+            return unit.transfer(closest_unit.id, Constants.RESOURCE_TYPES.URANIUM, unit.cargo.uranium)
+        if unit.cargo.coal > 0:
+            return unit.transfer(closest_unit.id, Constants.RESOURCE_TYPES.COAL, unit.cargo.coal)
+        if unit.cargo.wood > 0:
+            return unit.transfer(closest_unit.id, Constants.RESOURCE_TYPES.WOOD, unit.cargo.wood)
         return None
     # no action
     if action_idx == 7 and unit.can_build(game_map):
